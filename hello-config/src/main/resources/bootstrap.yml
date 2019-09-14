@@ -1,0 +1,10 @@
+spring:
+  config:
+    name: my-conf-server
+  application:
+    name: my-conf
+  cloud:
+    config:
+      server:
+        git:
+          uri: "file://d:/Projects/my-spring-cloud-hello/config"

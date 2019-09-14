@@ -22,6 +22,9 @@
 **/*.ipr
 **/out/
 
+### Gradle
+**/bin
+
 ### NetBeans ###
 **/nbproject/private/
 **/nbbuild/
@@ -31,3 +34,4 @@
 
 ### VS Code ###
 **/.vscode/
+/.metadata/
