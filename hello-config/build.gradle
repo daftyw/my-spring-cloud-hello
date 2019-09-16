@@ -13,6 +13,7 @@ repositories {
 }
 
 ext {
+	set('myProjectName', 'hello-config')
 	set('springCloudVersion', "Greenwich.RELEASE")
 }
 

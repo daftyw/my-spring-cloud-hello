@@ -1,10 +1,14 @@
+server:
+  port: 8888
+
 spring:
   config:
     name: my-conf-server
   application:
-    name: my-conf
+    name: configserver1
   cloud:
     config:
       server:
         git:
-          uri: "file://d:/Projects/my-spring-cloud-hello/config"
+          uri: file:///d:/Projects/my-spring-cloud-hello-config-2
+          
