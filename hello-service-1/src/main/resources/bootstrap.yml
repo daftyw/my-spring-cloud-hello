@@ -11,3 +11,6 @@ spring:
       
 server:
   port: 8000
+  
+logging:
+    config: http://localhost:8888/hello-service-1/default/master/logback.xml
