@@ -1,6 +1,12 @@
 spring:
   application:
-    name: "hello-server"
+    name: "hello-gateway"
+  profiles:    active:    - dev
   cloud:
     config:
-      uri: "http://localhost:8888"
+      uri: "${SPRING_CONFIG_URI:http://localhost:8888}"
+      fail-fast: true
+      
+server:  port: 8882
+  
+logging:  config: classpath:logback.xml
